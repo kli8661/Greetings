@@ -10,9 +10,9 @@ public class Main {
     Scanner name = new Scanner(System.in);
     String nameStr = name.nextLine();
     System.out.println("Hello, nice to meet you " + nameStr + ".");
-    System.out.println("How old are you? (In an integer)");
+    System.out.println("How old are you? (In an integer)?");
     int age = name.nextInt();
-    System.out.println("I see " + nameStr + "you are " + age + " years old.");
+    System.out.println("I see " + nameStr + " you are " + age + " years old.");
     name.close();
     }
 }
